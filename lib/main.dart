@@ -11,8 +11,9 @@ class Bijoux extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: Colors.black, //ffd700,0xFFF8D210
-        accentColor: Color(0xFF022c43),
+        primaryColor: Colors.black,
+        colorScheme:
+            ColorScheme.fromSwatch().copyWith(secondary: Color(0xFF022c43)),
       ),
       home: SignUpScreen(),
     );

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "748034652039",
+    "firebase_url": "https://jewelry-fa93d.firebaseio.com",
+    "project_id": "jewelry-fa93d",
+    "storage_bucket": "jewelry-fa93d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748034652039:android:0349c738ce734092cc8522",
+        "android_client_info": {
+          "package_name": "com.ahmeddkouteiba.jewelry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748034652039-1tvtbnvmmkak2fjo1vegelajpu2osncl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ahmeddkouteiba.jewelry",
+            "certificate_hash": "0c7871c779f3a236bf206eb3fc37b7bbfad78608"
+          }
+        },
+        {
+          "client_id": "748034652039-o400vg4hphamkgqcoolni04sgtkv4bdl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzGsqkRWlHKwDHYT8EhF4O6avJ7myMwuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748034652039-o400vg4hphamkgqcoolni04sgtkv4bdl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

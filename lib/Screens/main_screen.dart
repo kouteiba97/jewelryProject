@@ -1,5 +1,4 @@
 import 'package:carousel_pro/carousel_pro.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:jewelry/Components/Category_List_Shape.dart';
 import 'package:jewelry/Components/inkWell.dart';
@@ -13,7 +12,6 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  int _currentIndex = 0;
   @override
   Widget build(BuildContext context) {
     // ignore: non_constant_identifier_names
@@ -268,7 +266,6 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ],
       ),
-
     );
   }
 }

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:jewelry/Components/SignUpBody.dart';
 
-
 class SignUpScreen extends StatefulWidget {
   @override
   _SignUpScreenState createState() => _SignUpScreenState();
 }
+
 class _SignUpScreenState extends State<SignUpScreen> {
   @override
   Widget build(BuildContext context) {
@@ -14,41 +14,13 @@ class _SignUpScreenState extends State<SignUpScreen> {
         title: Text("Sign Up"),
         centerTitle: true,
       ),
-      body: SignUpBody(),
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: SignUpBody(),
+      ),
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // NEEDED METHODS
 /* void isSingedIn() async{
@@ -97,5 +69,3 @@ class _SignUpScreenState extends State<SignUpScreen> {
     isSingedIn();
   }
 */
-
-
